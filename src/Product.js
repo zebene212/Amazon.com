@@ -31,7 +31,9 @@ function Product({ id, title, image, price, rating }) {
           {Array(rating)
             .fill()
             .map(() => (
-              <p>🌟</p>
+              <p>
+                <img src="https://img.icons8.com/fluency/20/000000/filled-star.png" />
+              </p>
             ))}
         </div>
       </div>
